@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;700;900&family=Satisfy&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+section {
+    width: 1920px;
+    margin: 0 auto;
+    background: transparent linear-gradient(180deg, #281EFF 0%, #2DFF8C 100%) 0% 0% no-repeat padding-box;
+    height: 960px;
+    border-radius: 5px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, .3);
+
+
+}
+
+section h2 {
+    font-size: 8rem;
+    font-family: 'Satisfy', cursive;
+    font-weight: normal;
+    text-align: center;
+    padding-top: 200px;
+    color: #fff;
+}
+
+section h4 {
+    font-size: 1.3rem;
+    font-family: 'Heebo', sans-serif;
+    text-align: center;
+    color: #fff;
+}
+
+section p {
+    font-size: 2rem;
+    font-family: 'Heebo', sans-serif;
+    text-align: center;
+    color: #fff;
+}
+
+section form {
+    direction: rtl;
+    text-align: center;
+    padding: 30px;
+    margin: 0 auto;
+    width: 45vw;
+}
+
+section form label {
+    color: #fff;
+    font-size: 2rem;
+    font-family: 'Heebo', sans-serif;
+    padding: 10px;
+}
+
+section form input {
+    padding: 5px;
+    margin-bottom: 50px;
+    opacity: 1;
+
+}
+
+section form .btn {
+    width: 100px;
+    border: 1px solid #a7e0e9;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #aeddfe;
+    padding: 10px;
+    transition: 0.2s ease-in-out;
+    cursor: pointer;
+    margin: 0 auto;
+    display: block;
+    font-size: 1rem;
+    font-family: 'Heebo', sans-serif;
+    font-weight: 500;
+    text-align: center;
+    text-decoration: none;
+
+}
+
+section form .btn:hover {
+    color: #fff;
+    background-color: #a7e0e9;
+    border: 1px solid #a7e0e9;
+    transition: 0.2s ease-in-out;
+}
+
+footer {
+    width: 100vw;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    background-color: #a7e0e9;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, .3);
+
+
+}
+
+footer div {
+    width: 160px;
+    height: 120px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+footer div a {
+    text-decoration: none;
+    text-align: center;
+    font-size: 1rem;
+}
+
+footer div a img {
+    padding-left: 65px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    transition: 0.3s ease-in-out;
+}
+
+footer div a img:hover {
+    scale: 1.1;
+}
+
+footer p {
+    font-family: 'Heebo', sans-serif;
+    font-weight: 400;
+    text-align: center;
+}
+
+@media (max-width:1200px) {
+    .navbar div {
+        width: 80vw;
+    }
+
+    .top p {
+        width: 80vw;
+    }
+
+    section {
+        width: 80vw;
+    }
+
+    footer div {
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+}
+
+@media (max-width:700px) {
+    section {
+        width: 90vw;
+    }
+
+    section form input {
+        display: block;
+        margin: 0 auto;
+    }
+}
